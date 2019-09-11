@@ -15,7 +15,12 @@ void printENC(string str){
         }
         
         //print
-
+        cout << str[i] << count;
+      }
+   }
 int main(){
-
+  cout << "Enter a string. " ;
+  cin >> string str;
+  printENC(str);
+  return 0;
 }
